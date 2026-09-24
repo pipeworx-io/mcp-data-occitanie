@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/data-occitanie",
   "title": "Data Occitanie",
   "description": "Occitanie Region Open Data (data.laregion.fr) — OpenDataSoft MCP.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/data-occitanie",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-data-occitanie",
