@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-data-occitanie",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Occitanie Region Open Data (data.laregion.fr) — OpenDataSoft MCP.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-data-occitanie": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "data-occitanie"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-data-occitanie.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/data-occitanie",
   "pipeworx": {
-    "sourceHash": "v1-b88baa5dbd4908cc3642596dfbe2d739c213b36b9d208b90a8dcf8bf7adea786",
-    "sourceCommit": "01241619b78233fd55d0e3612331499a63f03ae7"
+    "mode": "gateway",
+    "slug": "data-occitanie",
+    "gatewaySlug": "data-occitanie",
+    "sourceHash": "v1-3fc1fb7d358646f2b779376eace424086ee87e4acd2c8c1307ad7ef2f6997e70",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }
