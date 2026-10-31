@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-data-occitanie",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Occitanie Region Open Data (data.laregion.fr) — OpenDataSoft MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "data-occitanie",
     "gatewaySlug": "data-occitanie",
-    "sourceHash": "v1-3fc1fb7d358646f2b779376eace424086ee87e4acd2c8c1307ad7ef2f6997e70",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-e71fceaab82febf4d1e4177f3372701b4ac2e74b43c57ae1bb6ce2fff36dcbcd",
+    "sourceCommit": "5ce1a05186d46479e23865c66bdb8579d8de445e"
   }
 }
